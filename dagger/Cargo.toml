@@ -1,0 +1,11 @@
+[package]
+name = "dagger"
+version = "0.1.0"
+authors = ["Flier Lu <flier.lu@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dagger-core = { version = "0.1", path = "../dagger-core" }
+dagger-macros = { version = "0.1", path = "../dagger-macros" }

@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "dagger",
+    "dagger-core",
+    "dagger-macros",
+]
